@@ -5,7 +5,6 @@ import solid.principles.math.calculator.Calculator;
 import solid.principles.math.calculator.basic.BasicCalculator;
 import solid.principles.math.calculator.basic.BasicInput;
 import solid.principles.math.calculator.basic.BasicOperation;
-import solid.principles.math.calculator.basic.BasicOutput;
 import solid.principles.math.formatter.Formatter;
 import solid.principles.math.formatter.JsonFormatter;
 import solid.principles.math.printer.ConsolePrinter;
@@ -31,9 +30,7 @@ public class Main {
         }catch (RuntimeException re){
             log.error("Cause '{}' message '{}'",re.getCause(),re.getMessage());
         }
-
         calculator.calculate(BasicOperation.AREA_ADDITION, new BasicInput(shapes2));
-
     }
 
 
