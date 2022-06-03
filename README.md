@@ -43,3 +43,12 @@ By doing so, we can ensure that implementing classes only need to be concerned a
 Benefits :
 - Easy & clean implementation : Classes implement only methods of interest to them.
 - A variety of aggregated behaviours possible.
+
+
+### Dependency Inversion
+Depend upon abstractions, concretions.This means decoupling of software modules.
+Instead of high level modules depending on low level modules, both depend on abstractions.
+
+## TO SUM IT UP :
+- ### SEPARATE & DECOUPLE AS MUCH AS POSSIBLE (Behaviour & State)
+- ### TO FIND GENERIC PATTERN/FLOW MORE ABSTRACTION THE BETTER IT IS

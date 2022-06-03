@@ -1,14 +1,17 @@
 package solid.principles.math.calculator.basic;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import solid.principles.math.calculator.Input;
 import solid.principles.math.shape.Shape;
 
-@RequiredArgsConstructor
+@AllArgsConstructor
+@NoArgsConstructor
+@Data
 public class BasicInput implements Input {
     private Shape[] shapes;
 
-    public BasicInput(Shape[] shapes) {
-    }
+
 }

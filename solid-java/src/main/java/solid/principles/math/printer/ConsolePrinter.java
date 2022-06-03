@@ -12,11 +12,13 @@ public class ConsolePrinter implements Printer{
     private final Formatter formatter;
     @Override
     public void print(Shape... args) {
-      log.info("{}",args);
+        Object content=formatter.format(args);
+        log.info("{}",content);
     }
 
     @Override
     public void print(Object... args) {
-
+        Object content=formatter.format(args);
+        log.info("{}",content);
     }
 }
